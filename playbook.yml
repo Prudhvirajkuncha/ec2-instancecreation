@@ -1,0 +1,6 @@
+#name: run the playbook tasks on the localhost
+- hosts: localhost
+  remote_user: ansadm
+  become: false
+  roles:
+    - instance_creation
