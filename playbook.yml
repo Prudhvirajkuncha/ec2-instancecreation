@@ -4,3 +4,9 @@
   become: false
   roles:
     - instance_creation
+    
+# hosts: webservers
+#  remote_user: ec2-user
+#  become: true
+#  roles:
+#    - webserver_creation
